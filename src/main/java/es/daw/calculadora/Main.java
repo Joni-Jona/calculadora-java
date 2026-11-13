@@ -29,5 +29,8 @@ public class Main {
         System.out.println("División: " + calculadora.dividir(numero1, numero2));
 
         System.out.println("Potencia (2^3): " + calculadora.potencia(2, 3));
+    
+        System.out.println("Módulo (20 % 6): " + calculadora.modulo(20, 6));
+    
     }
 }
