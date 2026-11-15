@@ -47,5 +47,20 @@ public class Calculadora {
             );
         }
         return a % b;
+        
+     
     }
+    
+    //Cálculo de Factorial (ej: 5! = 5 * 4 * 3 * 2 * 1 = 120)
+    public static long factorial(int n) {
+        if (n < 0) {
+            throw new IllegalArgumentException("El factorial no está definido para números negativos.");
+        }
+        long resultado = 1;
+        for (int i = 1; i <= n; i++) {
+            resultado *= i;
+        }
+        return resultado;
+    }
+
 }
