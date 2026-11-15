@@ -31,6 +31,8 @@ public class Main {
         System.out.println("Potencia (2^3): " + calculadora.potencia(2, 3));
     
         System.out.println("Módulo (20 % 6): " + calculadora.modulo(20, 6));
-    
+        
+        System.out.println("Factorial 5): " + calculadora.factorial(5));
+
     }
 }
